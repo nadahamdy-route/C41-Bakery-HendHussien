@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+h1{
+    font-family: 'Alegreya', serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* top section style */
+.topSection{
+    background-image: url(../images/heroImg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center ;
+    overflow: hidden;
+    /* background-attachment: fixed; */
+}
+.topNav {
+    /* background-color: brown; */
+    margin-top: 30px;  
+}
+.topNav img{
+    /* background-color: red; */
+    display: inline-block;
+    width: 20%;
+    /* vertical-align: top; */
+}
+.nav{
+    /* background-color: chartreuse; */
+    display: inline-block;
+    vertical-align: top;
+    width: 79%;
+    text-align: right;
+    margin-top: 10px;
+}
+.nav ul li{
+    /* background-color: blue; */
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    padding: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.info{
+    /* background-color: darkgoldenrod; */
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    color: white;
+}
+.info h4{
+    font-size: 22px;
+    margin: 0 0 20px;
+    /* background-color: bisque; */
+}
+.info h1{
+    font-size: 76px;
+    margin-bottom: 20px;
+    /* background-color: blueviolet; */
+}
+.info p{
+    font-size: 24;
+    /* background-color: deeppink; */
+    margin-bottom: 20px;
+}
+.info button{
+    padding: 15px 25px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.info .learn{
+    background-color: #8e7754;
+}
+.info .contact{
+    border: 1px solid white;
+}
+.downBtn{
+    width: 30px;
+    height: 50px;
+    border-radius: 30px;
+    /* background-color: darkslateblue; */
+    border: 2px solid rgb(196, 194, 194);
+    margin: 20px auto;
+}
+
+/* who we are section */
+.who{
+    /* background-color: blueviolet; */
+    margin-top: 60px;
+    color: #686868;
+}
+.who img{
+    width: 50%;
+}
+.who .aboutInfo{
+    /* background-color: coral; */
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 0 30px;
+    padding: 15px;
+}
+.who .aboutInfo h2{
+    color: #302f2f;
+}
+.who .aboutInfo h2,.who .aboutInfo p{
+    margin-bottom: 25px;
+}
+.list{
+    /* background-color: darkmagenta; */
+    margin-bottom: 10px;
+}
+.list img{
+    width: 10%;
+    /* background-color: blue; */
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid #c5c5c5;
+}
+.list p{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* location section */
+.thirdSec{
+    background-color: #F8F8F8;
+    margin-top: 60px;
+}
+.location{
+    padding: 60px 0;
+    /* background-color: #8e7754; */
+}
+.locInfo{
+    /* background-color: crimson; */
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    /* margin-top: 30px; */
+}
+.locInfo h2{
+    color: #302f2f;
+}
+.locInfo p{
+    margin-top: 30px;
+    color: #686868;
+    line-height: 1.4;
+}
+.location img{
+    width: 50%;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+
+/* baking section */
+.baking{
+    text-align: center;
+    /* background-color: darkorange; */
+    margin-top: 60px;
+}
+.baking h2{
+    color: #302f2f;
+    margin-bottom: 20px;
+}
+.baking p{
+    color: #686868;
+    margin-bottom: 50px;
+}
+.bread{
+    /* background-color: #302f2f; */
+    width: 33.3%;
+    margin: auto;
+    /* margin-left: 30px; */
+    /* padding: 15px; */
+    float: left;
+}
+.bread h2{
+    margin-top: 20px;
+}
+.bread p{
+    line-height: 1.4;
+    padding:0 10px;
+}
+.bread img{
+    width: 95%;
+}
+.clr{
+    clear: both;
+}
+
+/* contact section */
+.contact{
+    background-color: #F8F8F8;
+    margin-top: 30px;
+    padding: 40px 0;
+}
+
+.contactInfo h2{
+    margin-bottom: 20px;
+    color: #302f2f;
+}
+.contactInfo p{
+    color: #686868;
+    line-height: 1.4;
+}
+
+.contactInfo ,.mapImg{
+    /* background-color: blueviolet; */
+    float: left;
+    width: 50%;
+}
+.mapImg img{
+    width: 95%;
+    margin-left: 20px;
+}
+.contactDetails{
+    margin: 20px 0;
+}
+.contactDetails p{
+    margin-bottom: 20px;
+}
+.contactDetailsList{
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+.contactDetailsList img{
+    width: 8%;
+    background-color: #8E7754;
+    border-radius: 50%;
+    float: left;
+    
+}
+.contactDetailsList p{
+    /* background-color: #302f2f; */
+    float: left;
+    width: 80%;
+    margin: 10px 0 0 10px;
+}
+
+/* footer section */
+.footer{
+    background-color: #403D38;
+    margin: 30px 0 0 0;
+    padding: 30px 0;
+}
+
+.footerList{
+    /* background-color: aquamarine; */
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+.footerList h4{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footerList p{
+    margin-bottom: 20px;
+    color: #969696;;
+    line-height: 1.4;
+}
+.footerList ul li{
+    list-style: none;
+}
+.footerList ul li img{
+    width: 8%;
+    vertical-align: middle;
+}
+.footerList ul li p{
+    display: inline;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.footerList ul li hr{
+    margin: 10px 0;
+    background-color: #c5c5c5;
+}
+.footerContact{
+    background-image: url(../images/contact-details-map.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.footerContact ul li img{
+    width: 15%;
+}
+/* footer section */
+.groundFooter{
+    background-color: #353330;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+.groundFooter p{
+    margin: 30px 0;
+    color: #777;
+}
+
+.groundFooter .social ul li{
+    list-style: none;
+   display: inline;
+}
+.groundFooter .social ul li img{
+    width: 4%;
+   background-color: #403D38;
+   border-radius: 50%;
+}
